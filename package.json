@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test --env=jsdom --coverage --coverageDirectory=coverage",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
@@ -38,10 +38,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-    "jest": {
-    "collectCoverage": true,
-    "coverageDirectory": "coverage",
-    "coverageReporters": ["lcov", "text"]
   }
 }
